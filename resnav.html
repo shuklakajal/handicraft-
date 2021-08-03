@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900|Rubik:300,400,500,700,900');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #f2f2f2;
+    font-family: 'Montserrat' , sans-serif;
+}
+#navv{
+    background-color: #222222;
+    padding: 10px 40px 10px 70px;
+    border: 1px solid gray;
+    border-left: none;
+
+}
+#navv ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#navv ul li.logo{
+    flex: 1;
+    font-weight: bold;
+    font-size: 30px;
+    color: goldenrod;
+
+    
+}
+
+#navv ul div.items{
+    display: inline-flex;
+    padding:0 25px;
+
+    
+
+}
+#navv ul div.items a{
+    text-decoration: none;
+    font-size: 18px;
+    padding:0 12px;
+
+}
+#navv ul div.items a:hover{
+    color: goldenrod;
+}
+
+#navv ul li.search-icon{
+    height: 40px;
+    width:240px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    display: flex;
+
+
+}
+#navv ul li.search-icon input{
+    height: 100%;
+    width:200px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline:none;
+    padding:0 10px;
+    color:blue;
+}
+#navv ul li.search-icon .icon{
+    height: 100%;
+    width:40px;
+    line-height: 40px;
+    text-align: center;
+    background:black;
+    color: whitesmoke;
+    border-radius: 0 5px  5px 0;
+}
+#navv ul li.search-icon .icon:hover{
+    background-color: rgb(0, 68, 255);
+}
+#navv ul li.btn{
+    font-size: 29px;
+    flex:1;
+    padding: 0 40px;
+    display: none;
+}
+#navv ul li.btn span{
+    height:42px;
+    width:42px;
+    text-align: center;
+    line-height: 42px;
+    border:1px solid #151515;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#navv ul li.btn:hover span:before{
+    content:'\f00d';
+}
+@media screen and ( max-width: 1052px) {
+    #navv{
+        padding: 10px 40px 10px 0;
+    }
+    #navv ul li.logo{
+        display: none;
+    }
+    #navv ul div.items{
+        flex:4;
+    }
+    
+}
+
+
+    </style>
+</head>
+<body>
+    <nav id="navv">
+            <ul>
+                <img src="ha.png" width="70px" height="40px" style="border-radius: 10px;">
+                
+                <li  class="logo">Handicrafts</li>
+                <li class="btn"><span class="fa fa-bars"></span></li>
+
+                <div class="items">
+                <li><a href="">Home</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Buy now</a></li>
+                <li><a href="">services</a></li>
+                
+                </div>
+                <li class="search-icon">
+                <input type="search" placeholder="Search" />
+                <label class="icon">
+                <span  class="fa fa-search"></span></label>
+                </li>
+            
+        </ul>
+    </nav>
+</body>
+</html>

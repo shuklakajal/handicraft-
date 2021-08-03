@@ -1,0 +1,225 @@
+*{margin:0;
+    padding:0;box-sizing:border-box; }
+
+    .col-md-4{
+        margin-bottom: 5%;
+        background-color: whitesmoke;
+    }
+
+    #btnm{
+        padding: 5px;
+        background-color: darkgreen;
+        color: white;
+        text-align: center;
+        width: 7%;
+        position: absolute;
+        bottom:-65%;
+        left:92%;
+    }
+    #btnu{
+        padding: 5px;
+        background-color: darkgreen;
+        color: white;
+        text-align: center;
+        width: 7%;
+        position: absolute;
+        bottom:-90%;
+        left:84%
+    }
+
+
+    #btns{
+        padding: 5px;
+        background-color: darkgreen;
+        color: white;
+        text-align: center;
+        width: 5%;
+        position: absolute;
+        bottom:-65%;
+        left:92%;
+    
+        
+    
+    }
+    #btnv{
+        padding: 5px;
+        background-color: darkgreen;
+        color: white;
+        text-align: center;
+        width: 5%;
+        position: absolute;
+        bottom:-79%;
+        left:92%;
+    }
+    #btn1{
+        padding: 5px;
+        background-color: darkgreen;
+        color: white;
+        text-align: center;
+        width: 5%;
+        position: absolute;
+        bottom:-90%;
+        left:92%;
+    }
+    
+        #btni{
+            padding: 5px;
+            background-color: darkgreen;
+            color: white;
+            text-align: center;
+            width: 7;
+            position: absolute;
+            bottom: -65%;
+            left:85%;
+
+        }
+    
+    #btnn{
+        padding: 5px;
+        background-color: darkgreen;
+        color: white;
+        text-align: center;
+        width: 7;
+        position: absolute;
+        bottom: -79%;
+        left:85%;
+    }
+    h6{
+        text-align: center;
+        color:rgb(5, 104, 150);
+    }
+
+    .card-body{
+        color:orangered;
+        font-size: 10px;
+    }
+    
+    .overlay{
+        position: absolute;
+        top:60%;
+        opacity: 0;
+    
+        
+    }
+    .card:hover .overlay{
+        opacity: 1;
+        transition: 0.5s;
+
+
+    }
+
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900|Rubik:300,400,500,700,900');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat' , sans-serif;
+}
+#navv{
+    background-color: #222222;
+    border: 1px solid gray;
+    border-left: none;
+    padding: 7px 8px 0 8px;
+    padding-bottom: -10px;
+
+    
+
+}
+#navv ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#navv ul li.logo{
+    flex: 1;
+    font-weight: bold;
+    font-size: 30px;
+    color: goldenrod;
+
+    
+}
+
+#navv ul div.items{
+    display: inline-flex;
+    padding:0 25px;
+    
+
+    
+
+}
+#navv ul div.items a{
+    text-decoration: none;
+    font-size: 18px;
+    padding:0 12px;
+    color: whitesmoke;
+
+}
+#navv ul div.items a:hover{
+    color: goldenrod;
+}
+
+#navv ul li.search-icon{
+    height: 30px;
+    width:240px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    display: flex;
+
+
+}
+#navv ul li.search-icon input{
+    height: 100%;
+    width:350px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline:none;
+    padding:0 10px;
+    color:blue;
+}
+#navv ul li.search-icon .icon{
+    height: 100%;
+    width:40px;
+    line-height: 30px;
+    text-align: center;
+    background:black;
+    color: whitesmoke;
+    border-radius: 0 5px  5px 0;
+}
+#navv ul li.search-icon .icon:hover{
+    background-color: rgb(0, 68, 255);
+}
+#navv ul li.btn{
+    font-size: 29px;
+    flex:1;
+    padding: 0 40px;
+    display: none;
+}
+#navv ul li.btn span{
+    height:42px;
+    width:42px;
+    text-align: center;
+    line-height: 42px;
+    border:1px solid #151515;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#navv ul li.btn:hover span:before{
+    content:'\f00d';
+}
+@media screen and ( max-width: 1052px) {
+    #navv{
+        padding: 10px 40px 10px 0;
+    }
+    #navv ul li.logo{
+        display: none;
+    }
+    #navv ul div.items{
+        flex:4;
+    }
+    
+}
+
+
+    
